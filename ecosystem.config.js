@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: 'django',
-      script: 'demoproject/demoproject/manage.py',
+      script: 'demoproject/manage.py',
       args: 'runserver',
       instances: 1,
       autorestart: true,
