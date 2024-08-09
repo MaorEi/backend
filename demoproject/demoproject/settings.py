@@ -76,14 +76,6 @@ WSGI_APPLICATION = 'demoproject.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'demodb',
-        'PASSWORD': 'demo123!',
-        'HOST': 'demo-db-identifier.clk8e4y8q1sy.us-east-2.rds.amazonaws.com',
-        'PORT': 5432,
-    }
 }
 
 # Password validation
